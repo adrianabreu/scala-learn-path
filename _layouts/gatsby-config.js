@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/foam-gatsby-template`,
+  pathPrefix: `/scala-learn-path`,
   siteMetadata: {
     title: `Foam`,
   },
