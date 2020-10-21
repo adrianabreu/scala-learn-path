@@ -5,6 +5,16 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-double-brackets-link`,
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-theme-garden`,
       options: {
         rootNote: "/readme",
@@ -15,17 +25,8 @@ module.exports = {
           "**/.github/**",
           "**/.vscode/**",
         ],
+        mdxOtherwiseConfigured: true
       },
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-double-brackets-link`,
-          },
-        ],
-      },
-    }
   ],
 };
