@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/scala-learn-path`,
   siteMetadata: {
-    title: `Foam`,
+    title: `Scala Notes`,
   },
   plugins: [
     {

@@ -4,8 +4,8 @@ Los problemas funcionales no resuelven problemas directamente, sino que se descr
 
 Los modelos se obtienen a traves de [[constructors]] y dependiendo de como se codifique estem odelo nos encontramos con dos tipos:
 
--  Executable Encoding  (final) 
--  Declarative Encoding (initial)
+-  Executable Encoding  (final, everything is encoded in its terms of execution).
+-  Declarative Encoding (initial, everything is encoded as pure data).
 
 
 
