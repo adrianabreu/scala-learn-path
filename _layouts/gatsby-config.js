@@ -24,8 +24,7 @@ module.exports = {
           "**/.git/**",
           "**/.github/**",
           "**/.vscode/**",
-        ],
-        mdxOtherwiseConfigured: true
+        ]
       },
     },
   ],
