@@ -1,3 +1,3 @@
-# High Ordered Functions
+# Higher Order Functions
 
 Las high ordered functions nos permiten blabla...

@@ -1,4 +1,4 @@
-# Scala Error Handling
+# Error Handling
 
 Al igual que en el artículo de [[Null References Options]], se ha modelado el sistema de try catch para permitir una gestión mucho más elegante de las excepciones. Y al igual que en el otro caso, para decir de manera explícita que está sucediendo (se puede lanzar una excepción).
 
